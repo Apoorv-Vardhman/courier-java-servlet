@@ -1,0 +1,53 @@
+@keyframes moveInLeft {
+  0%{
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80%{
+    transform: translateX(3rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80%{
+    transform: translateX(-3rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0%{
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes heroAnimate {
+  0%,100%{
+    background-image: url("../img/about1.jpg");
+  }
+  25%{
+    background-image: url("../img/about2.jpg");
+  }
+  50%{
+    background-image: url("../img/about3.jpg");
+  }
+  75%{
+    background-image: url("../img/about1.jpg");
+  }
+}
